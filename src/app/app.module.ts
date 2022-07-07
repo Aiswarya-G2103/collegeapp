@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DeptnameComponent } from './deptname/deptname.component';
 import { FacultynameComponent } from './facultyname/facultyname.component';
+import { StudentdetailsComponent } from './studentdetails/studentdetails.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DeptnameComponent,
-    FacultynameComponent
+    FacultynameComponent,
+    StudentdetailsComponent
   ],
   imports: [
     BrowserModule,
